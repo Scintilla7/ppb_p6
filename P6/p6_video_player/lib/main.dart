@@ -46,7 +46,7 @@ class _VideoAppState extends State<VideoApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Video Player'),
+        title: const Text('Praktikum Video Player'),
       ),
       body: Center(
         child: _controller.value.isInitialized
